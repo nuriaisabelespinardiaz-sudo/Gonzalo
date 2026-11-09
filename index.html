@@ -6,8 +6,18 @@
   <title>Título de la página</title>
   <style>
     body {
-      background-color: pink; /* Fondo rosa */
-      color: white;           /* Texto en blanco */
+      background-color: pink;
+      color: white;
+      font-family: sans-serif;
+    }
+
+    .video-container {
+      margin-top: 30px;
+    }
+
+    iframe {
+      max-width: 100%;
+      border-radius: 8px;
     }
   </style>
 </head>
@@ -15,6 +25,19 @@
 
   <h1>Hola mundo</h1>
   <h2>Nuria Espinar Díaz.</h2>
+
+  <div class="video-container">
+    <iframe 
+      width="560" 
+      height="315" 
+      src="https://www.youtube.com/embed/BrGl81E4ZOc" 
+      title="Reproductor de video de YouTube" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      referrerpolicy="strict-origin-when-cross-origin" 
+      allowfullscreen>
+    </iframe>
+  </div>
 
 </body>
 </html>
